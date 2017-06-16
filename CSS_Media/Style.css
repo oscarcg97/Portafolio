@@ -1,0 +1,593 @@
+/* General */
+
+body {
+    margin: 0;
+    background-image: url("Media/Img/Fondo_General.jpg");
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Titulo {
+    margin-top: 30;
+    font-size: 75;
+    text-align: center;
+    width: 100%;
+    height: 70;
+}
+
+
+
+
+
+
+
+/* Cabecera superior */
+
+#Cabecera {
+    background: #333;
+    color: white;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#Cabecera li {
+    display: inline-block;
+    line-height: 70px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+
+#Cabecera a {
+    color: white;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+#Cabecera li:hover {
+    background: #0b76a6;
+}
+
+#Atras {
+    height: 75%;
+    width: 100;
+    margin-left: 10%;
+    margin-top: 10;
+}
+
+#CA {
+    width: 100%;
+    height: 70;
+}
+
+
+
+
+
+
+
+/* Index */
+
+#Nombre {
+    margin-top: 100;
+    border-radius: 50px;
+    font-size: 75;
+    margin-left: 26%;
+    text-align: center;
+    width: 50%;
+    height: 100;
+}
+
+#Descripcion {
+    font-size: 30;
+    margin-top: 30;
+    margin-bottom: 70;
+    text-align: center;
+    width: 100%;
+    height: 100;
+}
+
+#Trabajos {
+    background-image: url("Media/Img/Fondo_Trabajos.png");
+    border-radius: 50px;
+    color: white;
+    font-size: 30;
+    margin-left: 5%;
+    float: left;
+    padding-top: 90;
+    text-align: center;
+    width: 29%;
+    height: 150;
+    text-decoration: none;
+    box-shadow: 0 5px 0 grey;
+    transition: all 3 linear;
+}
+
+#Trabajos:active {
+    box-shadow: 0 0px 0;
+    transform: translateY(3px);
+}
+
+#Info {
+    background-image: url("Media/Img/Fondo_Informacion.jpg");
+    border-radius: 50px;
+    color: white;
+    font-size: 30;
+    margin-left: 36.1%;
+    padding-top: 90;
+    text-align: center;
+    background-color: gold;
+    width: 29%;
+    height: 150;
+    text-decoration: none;
+    box-shadow: 0 5px 0 grey;
+    transition: all 3 linear;
+}
+
+#Info:active {
+    box-shadow: 0 0px 0;
+    transform: translateY(3px);
+}
+
+#Contacto {
+    background-image: url("Media/Img/Fondo_Contacto.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 50px;
+    font-size: 30;
+    float: right;
+    margin-top: -240;
+    margin-right: 4%;
+    padding-top: 90;
+    text-align: center;
+    width: 29%;
+    height: 150;
+    text-decoration: none;
+    box-shadow: 0 5px 0 grey;
+    transition: all 3 linear;
+}
+
+#Contacto:active {
+    box-shadow: 0 0px 0;
+    transform: translateY(3px);
+}
+
+
+
+
+
+
+
+/* Iformacion */
+
+#TituloI{
+    margin-top: 100;
+    border-radius: 50px;
+    font-size: 100;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 100;
+}
+
+#DescripcionI {
+    font-size: 30;
+    margin-top: 90;
+    text-align: center;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: 20%
+   
+    
+   
+}
+
+
+
+
+
+/* Contacto */
+
+#TituloC{
+    margin-top: 100;
+    border-radius: 50px;
+    font-size: 100;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 100;
+}
+
+#DescripcionC {
+    font-size: 30;
+    margin-top: 90;
+    text-align: center;
+    line-height: 1.5;
+    width: 60%;
+    margin-left: 20% 
+}
+
+#correo{
+    color: aquamarine
+}
+
+
+
+
+
+
+
+
+
+/* Trabajos */
+
+#DescripcionT {
+    
+    font-size: 30;
+    margin-top: 80;
+    margin-bottom: 40;
+    text-align: center;
+    width: 100%;
+    height: 50;
+}
+
+#Modelado {
+    position: absolute;
+    border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Informacion.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    margin-top: 40;
+    margin-left: 9%;
+    margin-right: -1;
+    padding-top: 90;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+ 
+}
+
+#Modelado:hover {
+    font-size: 50;
+}
+
+#Animacion {
+     position: absolute;
+        border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Contacto.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    padding-top: 90;
+    margin-left: 36.5%;
+    margin-top: 40;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+   
+}
+
+#Animacion:hover {
+    font-size: 50;
+}
+
+#Dibujo{
+     position: absolute;
+        border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Informacion.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    padding-top: 90;
+    margin-left: 64%;
+    margin-top: 40;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+   
+}
+
+#Dibujo:hover {
+    font-size: 50;
+}
+
+
+
+#Text {
+   
+    position: absolute;
+        border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Contacto.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    margin-top: 300;
+    margin-left: 9%;
+    margin-right: -1;
+    padding-top: 90;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+}
+
+#Text:hover {
+    font-size: 50;
+}
+#Program {
+    position: absolute;
+        border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Informacion.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    margin-top: 300;
+    margin-left: 36.5%;
+    margin-right: -1;
+    padding-top: 90;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+}
+
+#Program:hover {
+    font-size: 50;
+}
+#Acabats {
+    position: absolute;
+        border-style: solid;
+    border-width:1px;
+    border-color: white;
+    border-radius: 20px;
+    background-image: url(Media/Img/Fondo_Contacto.jpg);
+    background-size: 100%;
+    color: white;
+    font-size: 30;
+    margin-top: 300;
+    margin-left: 64%;
+    margin-right: -1;
+    padding-top: 90;
+    text-align: center;
+    width: 26%;
+    height: 150;
+    text-decoration: none;
+}
+
+
+#Acabats:hover {
+    font-size: 50;
+}
+
+
+
+
+
+
+
+
+/* Distribucion General Trabajos */
+
+#Titulos {
+    
+    margin-bottom: 30;
+    font-size: 75;
+    margin-top: 50;
+    text-align: center;
+    width: 100%;
+    height: 90;
+}
+
+#Descripciones {
+    
+    font-size: 30;
+    margin-bottom: 40;
+    text-align: center;
+    width: 100%;
+    height: 49;
+}
+
+#Derecha {
+    width: 28%;
+    height: 320;
+    margin-left: -10;
+    margin-top: -10;
+}
+
+#Centro {
+    width: 28%;
+    height: 320;
+    margin-left: -10;
+    margin-top: -10;
+}
+
+#Izquierda {
+    width: 28%;
+    height: 320;
+    margin-left: 130;
+    margin-top: -10;
+}
+
+
+
+/* Distrubucion "Programación/Rigging" */
+
+#O1 {
+    margin-left: 20%;
+    width: 30%;
+    height: 300;
+    float: left;
+     border-style: solid;
+    border-width:3px;
+    border-color: white;
+    border-radius: 30px;
+}
+
+#O2 {
+    width: 30%;
+    height: 300;
+     border-style: solid;
+    border-width:3px;
+    border-color: white;
+    border-radius: 30px;
+}
+
+#O3 {
+    margin-left: 20%;
+     border-style: solid;
+    border-width:3px;
+    border-color: white;
+    border-radius: 30px;
+    width: 30%;
+    height: 280;
+    float: left;
+}
+
+#O4 {
+    width: 30%;
+    height: 280;
+     border-style: solid;
+    border-width:3px;
+    border-color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+/* Explicaciones 
+
+#EIzquierda {
+    width: 800;
+    height: 700;
+    margin-left: 10%;
+
+}
+
+#Explicaciones {
+    position: absolute;
+    font-size: 30;
+    text-align: justify;
+    margin-top: -600;
+    line-height: 1.5;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+*/
+
+/* Explicaciones 2*/
+
+#F {
+    width: 22%;
+    height: 300;
+    margin-left: 4%;
+    margin-top: 30;
+       margin-bottom: -160;
+}
+
+#F1 {
+    width: 22%;
+    height: 300;
+       margin-bottom: -160;
+}
+
+#F2 {
+    width: 22%;
+    height: 300;
+       margin-bottom: -160;
+}
+
+#F3 {
+    width: 22%;
+    height: 300;
+       margin-bottom: -160;
+}
+
+#sketch{
+    width: 25%;
+    height: 300;
+    margin-left: 34%;
+    margin-top: 30;
+}
+#FotoS{
+    width: 25%;
+    height: 300;
+    margin-left: 15%;
+    margin-top: 30;
+}
+#FotoS2 { float: right;
+      width: 640;
+    height: 480;
+    margin-right: 15%;
+    margin-top: -300;
+}
+
+#Foto1 { 
+      width: 640;
+    height: 480;
+    margin-left: 15%;
+    margin-bottom: -200;
+
+}
+
+#Foto2 { float: right;
+      width: 640;
+    height: 480;
+    margin-right: 15%;
+      margin-bottom: -200;
+ 
+}
+#video{
+    width: 640;
+    height: 480;
+    margin-left: 34%;
+    margin-top: 30;
+      margin-bottom: -200;
+}
+
+#video2{
+    width: 1000;
+    height: 500;
+    margin-left: 25%;
+    margin-top: 30;
+      margin-bottom: -200;
+}
+#OExplicaciones {
+    font-size: 30;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 200;
+    margin-right: 20%;
+    margin-left: 20%
+}
+
